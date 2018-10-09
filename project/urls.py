@@ -18,6 +18,8 @@ from django.urls import path
 from project.countries import views
 
 urlpatterns = [
+    path('', views.index),
     path('api/v1/', views.CountriesView.as_view()),
+    path('api/v1/auth/', views.CheckAuth.as_view()), #check user.is_authenticated for frontend
     path('admin/', admin.site.urls),
 ]
