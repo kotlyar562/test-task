@@ -1,10 +1,10 @@
-** Зависимости - python 3, django 2, django-rest-framework **
+**Зависимости - python 3, django 2, django-rest-framework**
 
 pip3 install django djangorestframework
 
 
 
-** Инструкция по развертыванию **
+**Инструкция по развертыванию**
 
 git clone git@github.com:kotlyar562/test-task.git
 cd test-task
